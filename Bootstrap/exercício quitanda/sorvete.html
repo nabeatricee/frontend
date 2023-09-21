@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lala.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class=" bodiii">
+    <nav class="navbar bgbg navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="/Bootstrap/exercício quitanda/index.html" class="navbar-brand">
+                Tropical
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between" id="menuNavBar">
+                <div class="navbar-nav  justify-content-between">
+                    <a href="index.html" class="nav-link">Principal</a>
+                    <a href="sorvete.html" class="nav-link">Sorvete</a>
+                    <a href="#" class="nav-link">Contato</a>
+                </div>
+                <div class="navbar-nav">
+                    <a href="cadastro.html" class="nav-link ">Cadastrar</a>
+                    <a href="#" class="nav-link ">Entrar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+                <div >
+                    <img src="/Bootstrap/exercício quitanda/img/pexels-micheilecom-__-visual-stories-7518551.jpg"
+                        class="w-100 d-block">
+                </div>
+    </main>
+
+    <hr>
+
+    <section class="container">
+        <div class="row ">
+            <div class="d-flex justify-content-between">
+                <form class="me-3">
+                    <div class="input-group" style="width:500px">
+                        <input type="search" class="form-control">
+                        <button type="submit" class="btn btn-outline-light bg-dark">Buscar</button>
+                    </div>
+                </form>
+
+                <ul class="pagination col-3 ">
+                    <li class="page-item">
+                        <a href="#" class="page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">5</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">6</a>
+                    </li>
+                </ul>
+                <select name="" id="" class="form-control" style="width:300px ">
+                    <option value="">Ordenar pelo nome </option>
+                    <option value="">A - Z</option>
+                    <option value="">Z - A</option>
+                    <option value="">Promoção</option>
+                    <option value="">Mais vendidos</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!--CARDS-->
+    <section class="row m-5">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img data-bs-toggle="modal" data-bs-target="#imagemModal" src="/Bootstrap/exercício quitanda/img/abacaxii.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-body bg">
+                    <h5 class="card-title">Abacaxi</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+
+                <div class="modal fade" id="imagemModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="/Bootstrap/exercício quitanda/img/ss.abacaxi.jpg">
+                            </div>
+                            <div class="modal-header">
+                                <h5>R$26,90 Unidade</h5>
+                                <p>Sorvete natural de manga, com pedaços da fruta, feito com leite de coco</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/abacate.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Abacate</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/açaí.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Açaí</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/acerola.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Acerola</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/ameixa.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Ameixa</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/araça.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Araçá</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/banana.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Banana</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/cacau.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cacau</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/caju.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Caju</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/caqui.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Caqui</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/carambola[.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Carambola</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/cereja.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cereja</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/coco.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Coco</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/framboesa.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Framboesa</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/goiaba.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Goiaba</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/guaraná.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Guaraná</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/jaca.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Jaca</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/kiwi.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Kiwi</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/laranja.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Laranja</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/lichia.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Lichia</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/limao.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Limão</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/manga.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Manga</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/maracuja.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Maracujá</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/maçã.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Maçã</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/melancia.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Melancia</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/melão.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Mamão</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/mexirica.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Mexirica</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/morango.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Morango</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/pera.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Pera</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/pessego.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Pêssego</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/pitaya.jpg" alt="" class="card-img-top">
+                <div class="card-body bg">
+                    <h5 class="card-title">Pitaya</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/romã.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Romã</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/tâmara.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tâmara</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/umbu.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Umbu</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card ">
+                <img src="/Bootstrap/exercício quitanda/img/uva.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Uva</h5>
+                    <button class="btn btn-dark">Saiba mais</button>
+                </div>
+            </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
